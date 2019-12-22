@@ -2,7 +2,7 @@
 	"name": "px2rem",
 	"displayName": "px2rem",
 	"description": "transfer px to rem",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "qxl",
 	"repository": "https://github.com/bluceqiu/px2rem.git",
 	"engines": {
