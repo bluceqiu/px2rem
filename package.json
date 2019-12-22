@@ -15,6 +15,7 @@
 		"onCommand:extension.px2rem"
 	],
 	"main": "./extension.js",
+	"icon": "./imgs/px2rem_icon.png",
 	"contributes": {
 		"commands": [{
             "command": "extension.px2rem",
