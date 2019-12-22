@@ -4,6 +4,7 @@
 	"description": "transfer px to rem",
 	"version": "0.0.1",
 	"publisher": "qxl",
+	"repository": "https://github.com/bluceqiu/px2rem.git",
 	"engines": {
 		"vscode": "^1.41.0"
 	},
