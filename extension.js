@@ -1,7 +1,7 @@
 /*
  * @Author: xiaolong.qiu
  * @Date: 2019-12-22 11:59:12
- * @LastEditTime : 2019-12-22 13:47:39
+ * @LastEditTime : 2019-12-22 15:41:38
  */
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
@@ -23,9 +23,10 @@ function activate(context) {
 	// Now provide the implementation of the command with  registerCommand
 	// The commandId parameter must match the command field in package.json
 	let disposable = vscode.commands.registerCommand('extension.px2rem', function (path) {
-		
+		const config = vscode.workspace.getConfiguration().get('px2rem.config');
+
 		try {
-			px2rem(path.fsPath);
+			px2rem(path.fsPath, config.transferRatio);
 			vscode.window.showInformationMessage('transfer successfully！');
 		} catch (error) {
 			console.log(error.message);

@@ -26,6 +26,24 @@
 					"group": "2_modification"
 				}
 			]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "transfer px 2 rem",
+			"properties": {
+				"config": {
+					"type": "object",
+					"title": "配置项",
+					"properties": {
+						"transferRatio": {
+							"type": "number",
+							"default": true,
+							"description": "px 转换为 rem 的基准转换比例"
+						}
+					}
+				}
+				
+			}
 		}
 	},
 	
