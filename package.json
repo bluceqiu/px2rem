@@ -17,8 +17,24 @@
 		"commands": [{
             "command": "extension.px2rem",
 			"title": "px2rem"
-		}]
+		}],
+		"menus": {
+			"editor/context": [
+				{
+					"when": "editorFocus",
+					"command": "extension.px2rem",
+					"group": "navigation"
+				}
+			],
+			"explorer/context": [
+				{
+					"command": "extension.px2rem",
+					"group": "navigation"
+				}
+			]
+		}
 	},
+	
 	"scripts": {
 		"test": "node ./test/runTest.js"
 	},
