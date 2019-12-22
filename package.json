@@ -16,20 +16,14 @@
 	"contributes": {
 		"commands": [{
             "command": "extension.px2rem",
-			"title": "px2rem"
+			"title": "transfer px 2 rem"
 		}],
 		"menus": {
 			"editor/context": [
 				{
-					"when": "editorFocus",
+					"when": "resourceExtname == '.scss' || resourceExtname == '.css' || resourceExtname == '.less'",
 					"command": "extension.px2rem",
-					"group": "navigation"
-				}
-			],
-			"explorer/context": [
-				{
-					"command": "extension.px2rem",
-					"group": "navigation"
+					"group": "2_modification"
 				}
 			]
 		}
