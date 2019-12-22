@@ -3,6 +3,7 @@
 	"displayName": "px2rem",
 	"description": "transfer px to rem",
 	"version": "0.0.1",
+	"publisher": "qxl",
 	"engines": {
 		"vscode": "^1.41.0"
 	},
