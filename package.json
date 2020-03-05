@@ -27,7 +27,7 @@
 		"menus": {
 			"editor/context": [
 				{
-					"when": "resourceExtname == '.scss' || resourceExtname == '.css' || resourceExtname == '.less' || resourceExtname == '.vue'",
+					"when": "resourceExtname == '.scss' || resourceExtname == '.css' || resourceExtname == '.less' || resourceExtname == '.vue' || resourceExtname == '.jsx' || resourceExtname == '.html'",
 					"command": "extension.px2rem",
 					"group": "2_modification"
 				}
